@@ -1,0 +1,4 @@
+1.User enters a URL in the input field and clicks "Shorten It!".
+2.An AJAX request sends the URL to the server.
+3.Laravel generates the short URL and responds with the original and short URLs.
+4.The JavaScript dynamically displays the shortened URL under the form.
