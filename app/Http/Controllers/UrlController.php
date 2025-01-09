@@ -22,6 +22,7 @@ class UrlController extends Controller
 
         return response()->json([
             'short_url' => url($url->short_url),
+            'original_url' => $url->original_url,
         ]);
     }
 
